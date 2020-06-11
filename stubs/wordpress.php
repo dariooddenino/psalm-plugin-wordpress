@@ -49092,7 +49092,7 @@ namespace {
      *
      * @return WP_Post|array<array-key, mixed>|null
      */
-    function get_post($post = null, $output, $filter = 'raw')
+    function get_post($post = null, $output = 'OBJECT', $filter = 'raw')
     {
     }
     /**
