@@ -45080,7 +45080,7 @@ namespace {
      *
      * @return bool
      */
-    function current_user_can($capability, $args)
+    function current_user_can($capability, $args = [])
     {
     }
     /**
@@ -50159,7 +50159,7 @@ namespace {
      *
      * @return WP_Error|WP_Term|array<array-key, mixed>|null
      */
-    function get_term($term, $taxonomy = '', $output, $filter = 'raw')
+    function get_term($term, $taxonomy = '', $output = 'OBJECT', $filter = 'raw')
     {
     }
     /**
@@ -50171,7 +50171,7 @@ namespace {
      *
      * @return WP_Term|array<array-key, mixed>|false
      */
-    function get_term_by($field, $value, $taxonomy = '', $output, $filter = 'raw')
+    function get_term_by($field, $value, $taxonomy = '', $output = 'OBJECT', $filter = 'raw')
     {
     }
     /**
