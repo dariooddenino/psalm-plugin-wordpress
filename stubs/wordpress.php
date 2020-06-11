@@ -43384,7 +43384,14 @@ namespace {
     function _wptexturize_pushpop_element($text, $stack, $disabled_elements)
     {
     }
-    function _x()
+    /**
+     * @param string $text
+     * @param string $context
+     * @param string $domain
+     *
+     * @return string
+     */
+    function _x($text, $context, $domain = 'default')
     {
     }
     /**
