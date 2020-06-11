@@ -41345,7 +41345,13 @@ namespace {
         {
         }
     }
-    function __()
+    /**
+     * @param string $text
+     * @param string $domain
+     *
+     * @return string
+     */
+    function __($text, $domain = 'default')
     {
     }
     /**
